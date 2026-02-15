@@ -1,4 +1,5 @@
 --HOW TO RUN--
+
 In order to run, open this in VS Code with the latest NPM/DotNet/Angular version installed.
 Open up two different and simultaneous terminals and run the following in each of them.
 Please note that you should ensure that the urlAPI in app.program.ts matches the API endpoint
@@ -8,11 +9,14 @@ Program.cs file. Note that both terminals should start within the folder TakeHom
 -Terminal 1-
 
 cd TakeHomeTodoAPI
+
 dotnet run
 
 
 -Terminal 2-
 
 cd TakeHomeTodoUI
+
 npm install
+
 ng serve
